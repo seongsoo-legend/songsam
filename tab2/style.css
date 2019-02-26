@@ -1,0 +1,37 @@
+#tabMenu {
+  list-style:none;
+  padding:0;
+}
+#tabMenu > li {
+  float:left;
+  position:relative;
+}
+#tabMenu > li > a {
+display:block;
+width:60px;
+margin-right:10px;
+}
+#tabMenu > li > a.on {
+font-weight:bold;
+}
+.tabCont {
+display:none;
+position:absolute;
+top:25px;
+left:0;
+width:300px;
+height:500px;
+border:1px solid gray;
+}
+li:nth-child(2) .tabCont {
+left:-70px;
+}
+li:nth-child(3) .tabCont {
+left:-140px;
+}
+li:nth-child(4) .tabCont {
+left:-210px;
+}
+.tabCont.on {
+display: block;
+}
