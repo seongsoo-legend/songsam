@@ -15,3 +15,14 @@ $('#tabMenu > li a').on('click', function(){
 //   $(this).next().addClass('on');
 // })
 
+// 내가 만든거
+//$(function() {
+//    $("#tabMenu li").click(function() {
+//      var list = $(this).index();
+//      $("#tabMenu li a").removeClass("on");
+//      $(this).addClass("on");
+//
+//      $(".tabCont").hide();
+//      $(".tabCont").eq(list).show();
+//    });
+//  });

@@ -21,3 +21,27 @@
 .tabCont > li.on {
   display: block;
 }
+
+.tabMenu2 {
+  overflow:hidden;
+  list-style:none;
+  padding:0;
+}
+.tabMenu2 > li {
+  float:left;
+  width:100px;
+}
+.tabMenu2 > li.on > a {
+  font-weight:bold;
+}
+.tabCont2 {
+  width:300px;
+  height:500px;
+  border:1px solid gray;
+}
+.tabCont2 > li{
+  display:none;
+}
+.tabCont2 > li.on {
+  display: block;
+}
